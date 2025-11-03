@@ -1,0 +1,10 @@
+ba056cfd6b4e09bb71bd61eb3a143d61 *DESCRIPTION
+8bf4e80818195ff08c1b400268f12b28 *NAMESPACE
+53528cc13d0dde531dcba50c5413545e *R/nopa.R
+e0242483397f19586109afbbd54b2186 *R/opdRef.R
+ef2e8e3dbc015e95d30cdf3e77996ab9 *R/ordPredArgmax.R
+99a14e5321862b269ca31d6a41433b2a *R/ordPredRandom.R
+a52002c17495e90f42d3dbb401ff6b1f *man/nopa.Rd
+1008ee3758fafd33dab5ebb2effdb429 *man/opdRef.Rd
+1b865a2e63a7227b8ce31789e69a7e0e *man/ordPredArgmax.Rd
+67a106762631d82ab211eb19c3a8e3ea *man/ordPredRandom.Rd

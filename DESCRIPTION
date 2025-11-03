@@ -1,0 +1,21 @@
+Package: apor
+Type: Package
+Title: Assessment of Predictions for an Ordinal Response
+Version: 0.1.0
+Authors@R: person(
+    given = "Javier",
+    family = "Espinosa-Brito",
+    role = c("aut", "cre"),
+    email = "javier.espinosa.b@usach.cl")
+Description: Produces several metrics to assess the prediction of ordinal 
+    categories based on the estimated probability distribution for each unit of analysis
+    produced by any model returning a matrix with these probabilities.
+License: GPL-2
+Encoding: UTF-8
+RoxygenNote: 7.3.3
+NeedsCompilation: no
+Packaged: 2025-10-29 15:42:45 UTC; JEU
+Author: Javier Espinosa-Brito [aut, cre]
+Maintainer: Javier Espinosa-Brito <javier.espinosa.b@usach.cl>
+Repository: CRAN
+Date/Publication: 2025-11-03 10:30:02 UTC
