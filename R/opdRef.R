@@ -48,14 +48,14 @@ opdRef <- function(p) {
   # Produce two reference points for OPD
 
   # Probability vector must sum 1.
-  if (sum(p)!=1)
+  if (abs(sum(p) - 1) > 1e-8)
     stop("Probability vector 'p' must sum 1.")
 
   k <- length(p)
 
   # Probability vector must have values between 0 and 1.
   if (sum(p>0 & p<1)!=k)
-    stop("Probability vector 'p' must sum 1.")
+    stop("Probability vector must have values between 0 and 1.")
 
 
   # 1.- Reference point for \hat{Y} with the same distribution as
